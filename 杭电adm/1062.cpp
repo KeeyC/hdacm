@@ -14,7 +14,6 @@ int main()
 		while (lines--) {
 			int ex=0;
 			int i = 0;
-			
 			getline(cin, a);
 			int j = 0;
 			b = a;
