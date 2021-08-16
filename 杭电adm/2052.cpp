@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//Presentation Error
 void printrectangle(int w, int h) {
 	cout << "+";
 	for (int i = 1;i <= w;i++) cout << "-";
