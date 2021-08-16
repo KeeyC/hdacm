@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int nums,fig,sum=0; 
+	int nums, fig, sum = 0;
 	while (cin >> nums) {
 		sum = 0;
 		while (nums--) {
@@ -11,5 +11,4 @@ int main()
 		}
 		cout << sum << endl;
 	}
-
 }

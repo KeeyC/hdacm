@@ -21,7 +21,7 @@ int main() {
 		int x = jinzhi(num, 10);
 		int y = jinzhi(num, 12);
 		int z = jinzhi(num, 16);
-		if (x == y && x==z) std::cout << num << std::endl;
+		if (x == y && x == z) std::cout << num << std::endl;
 		num++;
 	}
 }

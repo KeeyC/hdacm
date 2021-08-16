@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void exchange(int num,int system=2)
+void exchange(int num, int system = 2)
 {
 	int i = 0;//纪录二进制位数
 	int ex;
@@ -17,9 +17,8 @@ void exchange(int num,int system=2)
 		a[j] = num % 2;
 		num = num / 2;
 	}
-	for (int j = i-1;j >= 0;j--) cout << a[j];
+	for (int j = i - 1;j >= 0;j--) cout << a[j];
 	cout << endl;
-
 }
 int main() {
 	int num;

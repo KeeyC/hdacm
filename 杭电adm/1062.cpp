@@ -12,19 +12,19 @@ int main()
 		string b;
 		cin.ignore();
 		while (lines--) {
-			int ex=0;
+			int ex = 0;
 			int i = 0;
 			getline(cin, a);
 			int j = 0;
 			b = a;
-			while (i<a.length()) 
+			while (i < a.length())
 			{
-				if (a[i] ==' ') 
+				if (a[i] == ' ')
 				{
 					ex = i;
-					for (;j < ex;j++) 
+					for (;j < ex;j++)
 					{
-						b[j] = a[i-1];
+						b[j] = a[i - 1];
 						i--;
 					}
 					i = ex;
@@ -38,14 +38,9 @@ int main()
 						b[j++] = a[i--];
 					}
 					i = j;
-					
 				}
 			}
 			cout << b << endl;
-			
 		}
-
-		
 	}
-
 }

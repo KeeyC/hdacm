@@ -6,7 +6,7 @@ int main() {
 	int m, n;
 	while (lines) {
 		cin >> m >> n;
-		cout <<m+n  << endl;
+		cout << m + n << endl;
 		lines--;
 	}
 }
